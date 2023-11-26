@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="376.0" prefWidth="615.0" style="-fx-background-color: #ADD8E6;"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="DicFX.Modify.EditWord.EditWord" stylesheets="@editWord.css">
+    <children>
+        <TextField id="newWord" fx:id="newWord" alignment="TOP_LEFT" layoutX="40.0" layoutY="85"
+                   prefHeight="32.0" prefWidth="300.0" promptText="New word" styleClass="new-word">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </TextField>
+        <TextField id="newWordType" fx:id="newWordType" layoutX="440" layoutY="85.0"
+                   prefHeight="6.0" prefWidth="125.0" promptText="New word type"
+                   styleClass="new-word-type">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </TextField>
+        <TextField id="newMeaning" fx:id="newMeaning" alignment="TOP_LEFT" layoutX="40.0"
+                   layoutY="139.0" prefHeight="214.0" prefWidth="525.0" promptText="New meaning"
+                   styleClass="new-meaning">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </TextField>
+        <Button id="confirmButton" fx:id="confirmButton" layoutX="360" layoutY="23.0"
+                mnemonicParsing="false" onMouseClicked="#setConfirmButton" prefHeight="35.0"
+                prefWidth="90.0" text="Confirm" textAlignment="JUSTIFY" styleClass="button">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="280" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#deleteWord"
+                prefHeight="35.0" prefWidth="70.0" text="Delete" textAlignment="CENTER"
+                styleClass="button">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="200" layoutY="23.0" mnemonicParsing="false"
+                onMouseClicked="#editWord" prefHeight="35.0" prefWidth="70.0" text="Edit"
+                styleClass="button">
+            <font>
+                <Font name="Comic Sans MS" size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

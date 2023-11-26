@@ -1,0 +1,77 @@
+.sound-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+}
+
+.sound-button:hover {
+    -fx-background-color: #828282;
+}
+
+.shadow {
+    -fx-effect: dropShadow(three-pass-box, rgba(0, 0, 0, 0.1), 10.0, 0.0, 0.0, 10.0);
+}
+
+.scroll-bar {
+    -fx-background-color: blue;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #ADD8E6;
+    -fx-background-radius: 10;
+}
+
+.trans {
+    -fx-background-color: #2596be;
+    -fx-text-fill: black;
+}
+
+.trans:hover {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+
+}
+
+.label {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30;
+}
+
+.input-area {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-prompt-text-fill: black;
+}
+
+.input-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.input-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.input-area .scroll-pane .content {
+    -fx-background-color: transparent;
+}
+
+.output-area {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-prompt-text-fill: black;
+}
+
+.output-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.output-area .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.output-area .scroll-pane .content {
+    -fx-background-color: transparent;
+}
